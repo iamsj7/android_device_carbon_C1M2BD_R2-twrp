@@ -15,4 +15,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_begonia.mk
+    $(LOCAL_DIR)/omni_C1M2BD_R2.mk

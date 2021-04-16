@@ -1,5 +1,5 @@
 on fs
-    export ANDROID_ROOT /system_root
+    export ANDROID_ROOT /system
     install_keyring
 
 on fs

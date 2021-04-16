@@ -1,24 +1,24 @@
-Device Tree for Redmi Note 8 Pro (begonia)
+Device Tree Carbon 1 Mark II (C1M2BD_R2)
 ==========================================
 
-The Redmi Note 8 Pro (codenamed _"begonia"_) is a high-end, mid-range smartphone from Xiaomi.
-It was released in September 2019.
+The Carbon 1 Mark II (codenamed _"C1M2BD_R2"_) is a high-end, smartphone from Carbon Mobile.
+It was released in March 2021.
 
 | Basic                   | Spec Sheet                                                                                                                     |
 | -----------------------:|:------------------------------------------------------------------------------------------------------------------------------ |
 | CPU                     | Octa-core                                                                                                                      |
-| Chipset                 | Mediatek Helio G90T                                                                                                            |
-| GPU                     | Mali-G76 MC4                                                                                                                   |
-| Memory                  | 6/8 GB RAM                                                                                                                     |
-| Shipped Android Version | 9.0                                                                                                                            |
-| Storage                 | 64/128/256 GB                                                                                                                  |
-| Battery                 | Non-removable Li-Po 4500 mAh battery                                                                                           |
-| Display                 | 1080 x 2340 pixels, 19.5:9 ratio (~395 ppi density)                                                                            |
-| Camera (Back)(Main)     | 64 MP, f/1.9, 26mm (wide), 1/1.7", 0.8µm, PDAF                                                                                |
-| Camera (Front)          | 20 MP, f/2.0, 0.9µm                                                                                                           |
+| Chipset                 | MEDIATEK P90​​ Octa-Core: up to 2.2GHz                                                                                           |
+| GPU                     | MG PowerVR GM 9446 GPU                                                                                                         |
+| Memory                  | 8 GB​ - LPDDR4x                                                                                                                 |
+| Shipped Android Version | 10.0                                                                                                                           |
+| Storage                 | 256GB​ - UFS 2.1                                                                                                                |
+| Battery                 | Non-removable Li-Po 3000 mAh battery                                                                                           |
+| Display                 | 2160 x 1080 Pixels, 18:9 ratio (AMOLED) | Corning® Gorilla® Glass Victus @ 0.4 mm                                            |
+| Camera (Back)(Main)     | 16 MP, f/2.2, 0.8µm, 5184 x 3880 pixels, S5K3T2                                                                              |
+| Camera (Front)          | 20 MP, f/2.01, 1.00µm, 4640 x 3488 pixels, Main​S5K3P9                                                                        |
 
 ## Device picture
-![begonia](https://fdn2.gsmarena.com/vv/pics/xiaomi/xiaomi-redmi-note-8-pro-01.jpg)
+![C1M2BD_R2](https://www.carbonmobile.com/2021/images/carbon-page/technical/techin-image.png)
 
 ## Build instructions
 
@@ -26,12 +26,10 @@ It was released in September 2019.
 # Compiling
 $ export ALLOW_MISSING_DEPENDENCIES=true
 $ . build/envsetup.sh
-$ lunch omni_begonia-eng
+$ lunch omni_C1M2BD_R2-eng
 $ make -jx recoveryimage //replace x in -jx with number of cores you want to allot for compilation
 
 ```
-## Kernel source
 
-You can find the kernel source used to compile prebuilt kernel in this tree at [theimpulson/android_kernel_redmi_mt6785](https://github.com/theimpulson/android_kernel_redmi_mt6785)
+**Copyright 2021 The Android Open Source Project**
 
-**Copyright 2019 The Android Open Source Project**

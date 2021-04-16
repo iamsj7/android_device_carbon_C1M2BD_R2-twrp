@@ -15,7 +15,7 @@
 #
 
 # Release name
-PRODUCT_RELEASE_NAME := begonia
+PRODUCT_RELEASE_NAME := C1M2BD_R2
 
 $(call inherit-product, build/target/product/embedded.mk)
 
@@ -23,8 +23,8 @@ $(call inherit-product, build/target/product/embedded.mk)
 $(call inherit-product, vendor/omni/config/common.mk)
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := begonia
-PRODUCT_NAME := omni_begonia
-PRODUCT_BRAND := Redmi
-PRODUCT_MODEL := Redmi Note 8 Pro
-PRODUCT_MANUFACTURER := Xiaomi
+PRODUCT_DEVICE := C1M2BD_R2
+PRODUCT_NAME := omni_C1M2BD_R2
+PRODUCT_BRAND := CarbonMobile
+PRODUCT_MODEL := Carbon 1 Mark II
+PRODUCT_MANUFACTURER := CarbonMobile

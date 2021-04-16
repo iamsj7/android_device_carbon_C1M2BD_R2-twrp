@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-DEVICE_PATH := device/redmi/begonia
+DEVICE_PATH := device/carbonmobile/C1M2BD_R2
 
 # Architecture
 TARGET_ARCH := arm64
@@ -37,7 +37,7 @@ TARGET_BOOTLOADER_BOARD_NAME := begonia
 TARGET_NO_BOOTLOADER := true
 
 # Platform
-TARGET_BOARD_PLATFORM := mt6785
+TARGET_BOARD_PLATFORM := mt6779
 TARGET_BOARD_PLATFORM_GPU := mali-g76mc4
 
 # Kernel
