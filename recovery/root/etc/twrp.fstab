@@ -11,7 +11,7 @@
 /misc             emmc     /dev/block/platform/bootdevice/by-name/misc
 /dtbo             emmc     /dev/block/platform/bootdevice/by-name/dtbo         flags=display="DTBO";backup=1;flashimg=1
 /vbmeta           emmc     /dev/block/platform/bootdevice/by-name/vbmeta       flags=display="VBMETA";backup=1;flashimg=1
-/data             ext4     /dev/block/platform/bootdevice/by-name/userdata     flags=fileencryption=aes-256-cts
+/data             ext4     /dev/block/platform/bootdevice/by-name/userdata     flags=fileencryption=aes-256-xts
 /persist          ext4     /dev/block/platform/bootdevice/by-name/persist      flags=display="Persist";backup=1;wipeingui
 /system_root      ext4     /dev/block/platform/bootdevice/by-name/system       flags=backup=1;wipeingui
 /vendor           ext4     /dev/block/platform/bootdevice/by-name/vendor       flags=backup=1;wipeingui
